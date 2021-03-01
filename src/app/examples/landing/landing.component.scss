@@ -1,3 +1,16 @@
 li {
   list-style-type: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .partner-info-text {
+    order: 2;
+  }
+  .partner-info-img {
+    order: 1;
+  }
+}
+
+.title {
+  margin-top: 2rem;
+}
